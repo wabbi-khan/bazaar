@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazaar-Shop</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/0f4d61e9f1.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+    <!-- Bootstrep -->
+    <link href="//cdn.shopify.com/s/files/1/0044/3328/1139/t/3/assets/icons.min.css?v=14477162614446074577"
+        rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.css">
+    <script>
+        $().ready(() => {
+            $('header').load("nav.html")
+            $('.footer-outer-all').load("footer.html")
+        })
+    </script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="page-title-outter">
+        <div class="page-title-inner">
+            <div class="container">
+                <h4><span>HOME </span>/ <span>SHOP</span></h4>
+            </div>
+        </div>
+    </div>
+    <div class="shop-area-outer">
+        <div class="shop-area-wrapper">
+            <div class="container">
+                <div class="search-product-wrapper">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="search-product-bar">
+                                <div>
+                                    <input type="search" class="search-product" id="searchbar" placeholder="Search our store">
+                                    <button type="button" onclick="Filter()" style="user-select: auto;">
+                                        <i class="sli sli-magnifier" style="user-select: auto;"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="product-sorting-wrapper">
+                                <div class="product-sorting">
+                                    <label for="sorting">Sort by : </label>
+                                    <select name="sorting" id="sorting" onchange="sorting(this.value)">
+                                        <option value="0">Featured</option>
+                                        <option value="1">Alphabetically, A-Z</option>
+                                        <option value="2">Alphabetically, Z-A</option>
+                                        <option value="3">Price, low to high</option>
+                                        <option value="4">Price, high to low</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="product-result-wrapper">
+                                <p style="user-select: auto;" id="ShowingResults">Showing
+                                    1 - 15
+                                    of
+                                    15
+                                    result
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-all-show-outer">
+                <div class="product-all-show-wrapper">
+                    <div class="product-all-show-inner">
+                        <div class="container">
+                            <div class="row " id="product-all-show-inner-row">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <div class="footer-outer-all">
+
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

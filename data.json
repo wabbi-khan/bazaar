@@ -1,0 +1,326 @@
+[
+    {
+        "id" : 1,
+        "name":"Black Trouser",
+        "price":"69",
+        "catagory":"Fashion",
+        "subcatagory":"Women's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/1.jpg"
+    },
+    {
+        "id" : 2,
+        "name":"Black Sweater",
+        "price":"84",
+        "catagory":"Fashion",
+        "subcatagory":"Women's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/2.jpg"
+    },
+    {
+        "id" : 3,
+        "name":"Denim Jacket",
+        "price":"86",
+        "catagory":"Fashion",
+        "subcatagory":"Women's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/3.jpg"
+    },
+    {
+        "id" : 4,
+        "name":"Dress For Girls",
+        "price":"59",
+        "catagory":"Fashion",
+        "subcatagory":"Women's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/4.jpg"
+    },
+    {
+        "id" : 5,
+        "name":"Bluz Modelleri",
+        "price":"64",
+        "catagory":"Fashion",
+        "subcatagory":"Women's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/5.jpg"
+    },
+    {
+        "id" : 6,
+        "name":"Chinos Pants",
+        "price":"79",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/6.jpg"
+    },
+    {
+        "id" : 7,
+        "name":"Coat For Men",
+        "price":"109",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/7.jpg"
+    },
+    {
+        "id" : 8,
+        "name":"Jacket Hood",
+        "price":"99",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/8.jpg"
+    },
+    {
+        "id" : 9,
+        "name":"Men Shirt",
+        "price":"89",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/9.jpg"
+    },
+    {
+        "id" : 10,
+        "name":"Denim Jeans",
+        "price":"99",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/10.jpg"
+    },
+    {
+        "id" : 11,
+        "name":"Combo of Purses",
+        "price":"94",
+        "catagory":"Beauty",
+        "subcatagory":"Women's accessories",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/11.jpg"
+    },
+    {
+        "id" : 12,
+        "name":"Dimond Rings",
+        "price":"89",
+        "catagory":"Beauty",
+        "subcatagory":"Women's accessories",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/12.jpg"
+    },
+    {
+        "id" : 13,
+        "name":"Belt Buckle",
+        "price":"59",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/13.jpg"
+    },
+    {
+        "id" : 14,
+        "name":"Collection Of Purses",
+        "price":"74",
+        "catagory":"Beauty",
+        "subcatagory":"Women's accessories",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/14.jpg"
+    },
+    {
+        "id" : 15,
+        "name":"Black Sunglasses",
+        "price":"79",
+        "catagory":"Beauty",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/15.jpg"
+    },
+    {
+        "id" : 16,
+        "name":"Blue Earrings",
+        "price":"89",
+        "catagory":"Beauty",
+        "subcatagory":"Women's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/16.jpg"
+    },
+    {
+        "id" : 17,
+        "name":"Baseball Cap",
+        "price":"99",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/17.jpg"
+    },
+    {
+        "id" : 18,
+        "name":"Leather Shoes",
+        "price":"159",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/18.jpg"
+    },
+    {
+        "id" : 19,
+        "name":"Casual Shoes",
+        "price":"99",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/19.jpg"
+    },
+    {
+        "id" : 20,
+        "name":"White Sneakers",
+        "price":"88",
+        "catagory":"Fashion",
+        "subcatagory":"Men's wear",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/20.jpg"
+    },
+    {
+        "id" : 21,
+        "name":"Black Wheel Chair",
+        "price":"288",
+        "catagory":"Home Appliances",
+        "subcatagory":"Furniture",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/21.jpg"
+    },
+    {
+        "id" : 22,
+        "name":"Green Wheel Chair",
+        "price":"588",
+        "catagory":"Home Appliances",
+        "subcatagory":"Furniture",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/22.jpg"
+    },
+    {
+        "id" : 23,
+        "name":"Wooden Storage Compect",
+        "price":"288",
+        "catagory":"Home Appliances",
+        "subcatagory":"Furniture",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/23.jpg"
+    },
+    {
+        "id" : 24,
+        "name":"Wooden Long Compect",
+        "price":"289",
+        "catagory":"Home Appliances",
+        "subcatagory":"Furniture",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/24.jpg"
+    },
+    {
+        "id" : 25,
+        "name":"Wooden Bench",
+        "price":"699",
+        "catagory":"Home Appliances",
+        "subcatagory":"Furniture",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/25.jpg"
+    },
+    {
+        "id" : 26,
+        "name":"Teblet",
+        "price":"599",
+        "catagory":"Electronics",
+        "subcatagory":"Electronics",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/26.jpg"
+    },
+    {
+        "id" : 27,
+        "name":"Ear Buds",
+        "price":"450",
+        "catagory":"Electronics",
+        "subcatagory":"Electronics",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/27.jpg"
+    },
+    {
+        "id" : 28,
+        "name":"Fridge",
+        "price":"999",
+        "catagory":"Electronics",
+        "subcatagory":"Home Appliances",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/28.jpg"
+    },
+    {
+        "id" : 29,
+        "name":"Microwave Oven",
+        "price":"499",
+        "catagory":"Electronics",
+        "subcatagory":"Home Appliances",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/29.jpg"
+    },
+    {
+        "id" : 30,
+        "name":"Headphone",
+        "price":"299",
+        "catagory":"Electronics",
+        "subcatagory":"Electronics",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/30.jpg"
+    },
+    {
+        "id" : 31,
+        "name":"Suspendisse ullamcorper",
+        "price":"99",
+        "catagory":"Kids",
+        "subcatagory":"Toy",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/31.jpg"
+    },
+    {
+        "id" : 32,
+        "name":"Wooden Zebra",
+        "price":"99",
+        "catagory":"Kids",
+        "subcatagory":"Toy",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/32.jpg"
+    },
+    {
+        "id" : 33,
+        "name":"Wooden Robot",
+        "price":"99",
+        "catagory":"Kids",
+        "subcatagory":"Toy",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/33.jpg"
+    },
+    {
+        "id" : 34,
+        "name":"Wooden Dog",
+        "price":"199",
+        "catagory":"Kids",
+        "subcatagory":"Toy",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/34.jpg"
+    },
+    {
+        "id" : 35,
+        "name":"Wooden Elephant",
+        "price":"99",
+        "catagory":"Kids",
+        "subcatagory":"Toy",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/35.jpg"
+    },
+    {
+        "id" : 36,
+        "name":"Wooden Light",
+        "price":"789",
+        "catagory":"Electronics",
+        "subcatagory":"Home Appliances",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iusto, minus porro ratione illo, molestias alias sapiente voluptatibus laboriosam modi ut suscipit odio ab sint cupiditate architecto, autem quas dicta.",
+        "src":"IMAGES/Product/36.jpg"
+    }
+]

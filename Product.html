@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/0f4d61e9f1.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+    <!-- Bootstrep -->
+    <link href="//cdn.shopify.com/s/files/1/0044/3328/1139/t/3/assets/icons.min.css?v=14477162614446074577"
+        rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.css">
+    <!-- <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <!-- title -->
+    
+    </script>
+    <title>Bazaar-Product</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div id="Main">
+        <!-- <div class="page-title-outter">
+            <div class="page-title-inner">
+                <div class="container">
+                    <h4><span>HOME </span>/ <span>PRODUCTS </span>/ <span id="topTitle"></span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" >
+                <div class="Product_img col-lg-6 col-md-6 col-sm-12 ">
+                    <img id="prodImgesrc" src="" alt="">
+                </div>
+                <div class="Product_info col-lg-6 col-md-6 col-sm-12">
+                    <div class="Prod_category">
+                        <p id="catagory"></p>
+                    </div>
+                    <div class="Prod_title">
+                        <h1 id="title"></h1>
+                    </div>
+                    <div class="Prod_desc">
+                        <p id="description"></p>
+                    </div>
+                    <div class="rating">
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+                    <div class="Prod_price">
+                        <h2>$ <span id="price"></span></h2>
+                    </div>
+                    <div class="Prod_counting">
+                        <button class="button-count no-active" disabled>-</button>
+                        <input type="text" readonly class="number-product" value="1">
+                        <button class="button-count">+</button>
+                    </div>
+                    <div class="addtocart_btn">
+                        <button type="button">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    
+    <div class="footer-outer-all">
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
+    <script>
+        // var num;
+
+        // $('.button-count:first-child').click(function () {
+        //     num = parseInt($('input:text').val());
+        //     if (num > 1) {
+        //         $('input:text').val(num - 1);
+        //     }
+        //     if (num == 2) {
+        //         $('.button-count:first-child').prop('disabled', true);
+        //     }
+        //     if (num == 10) {
+        //         $('.button-count:last-child').prop('disabled', false);
+        //     }
+        // });
+
+        // $('.button-count:last-child').click(function () {
+        //     num = parseInt($('input:text').val());
+        //     if (num < 10) {
+        //         $('input:text').val(num + 1);
+        //     }
+        //     if (num > 0) {
+        //         $('.button-count:first-child').prop('disabled', false);
+        //     }
+        //     if (num == 9) {
+        //         $('.button-count:last-child').prop('disabled', true);
+        //     }
+        // });
+        
+    </script>
+    <script src="JS/script.js"></script>
+    <script>
+        $().ready(() => {
+            $('header').load("nav.html")
+            $('.footer-outer-all').load("footer.html")
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazaar-Payment</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/payment.css">
+    <script src="https://kit.fontawesome.com/0f4d61e9f1.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+    <!-- Bootstrep -->
+    <link href="//cdn.shopify.com/s/files/1/0044/3328/1139/t/3/assets/icons.min.css?v=14477162614446074577"
+        rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.css">
+   
+</head>
+
+<body>
+    <div class="container paymentfirst" style="margin-top:40px;overflow-x: scroll;">
+        <h1>YOUR ORDERED LIST</h1>
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Quntity</th>
+                <th scope="col">Price Per Pic</th>
+              </tr>
+            </thead>
+            <tbody id="orderedList">
+            <tr>
+                
+            </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="container">
+        <div class="main-content">
+            <div class="wrapper">
+                <div class="title">
+                    <img src="IMAGES/logo.png" alt="">
+                </div>
+                <div class="sub-title">
+                    <h2>Contact Information</h2>
+                </div>
+                <div class="form">
+                    <input type="email" id="email"  class="Field-input" placeholder="Email address">
+                    <p id="email-error" class="field__message--error"></p>
+                </div>
+                <div class="sub-title-2">
+                    <h2>Shipping Address</h2>
+                </div>
+                <div class="form">
+                    <select class="Field-input" name="country" id="country">
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="China">China</option>
+                        <option value="America">America</option>
+                        <option value="Ukrain">Ukrain</option>
+                        <option value="UK">UK</option>
+                        <option value="Dubai">Dubai</option>
+                    </select>
+                    <p class="field__message--error"></p>
+                </div>
+                <div class="form">
+                    <input type="text" class="Field-input" placeholder="Name" id="name">
+                    <p class="field__message--error" id="name_error"></p>
+                </div>
+                <div class="form">
+                    <input type="text" class="Field-input" placeholder="Address" id="address">
+                    <p class="field__message--error" id="address_error"></p>
+                </div>
+                <div class="form">
+                    <input type="text" class="Field-input" placeholder="Apartment, suit, etc.(optional)" id="apartment">
+                    <p class="field__message--error" id="apartment_error"></p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form">
+                            <input type="text" class="Field-input" placeholder="City" id="city">
+                            <p class="field__message--error" id="city_error"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form">
+                            <input type="text" class="Field-input" placeholder="Pincode" id="pincode">
+                            <p class="field__message--error" id="pincode_error"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-title-2">
+                    <h2>Payment details</h2>
+                </div>
+                <div class="form">
+                    <input type="text" class="Field-input" placeholder="Cardholder's name" id="cname">
+                    <p class="field__message--error" id="cname_error"></p>
+                </div>
+                <div class="form">
+                    <input type="text" class="Field-input" placeholder="Card Number(XXXX-XXXX-XXXX-XXXX)" id="cnumber">
+                    <p class="field__message--error" id="cnumber_error"></p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form">
+                            <input type="text" class="Field-input" placeholder="CVV" id="cvv">
+                            <p class="field__message--error" id="cvv_error"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form">
+                            <input type="date" class="Field-input" placeholder="Expiry date" id="edate">
+                            <p class="field__message--error" id="edate_error"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="submit">
+                    <button type="button" id="submit" class="btn-main">
+                        <span class="btn__content" style="user-select: auto;">Continue to shipping</span>
+                    </button><br>
+                    <a href="/index.html">Back to home</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="result-container" class="result-container">
+        <div style="margin:28px; border: 2px solid black; width:450px;height: 450px;">
+            <h1 style="color: white; margin:0px; background-color:#F03D45; text-align: center;padding-bottom:15px;border-bottom: 1px solid black;">Bazzar Bill</h1>
+            <div id="append">
+                
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        let TA = 0;
+        let email,pincode,address,name,city,cvv,cnumber,currentDate,edate,Submit;
+        function printJSONpayment()
+        {
+            setTimeout(()=>{
+                console.log(DataofJSON)
+                let cartData = JSON.parse(window.localStorage.getItem("cart"));
+                let Ans = "";
+                TA = 0;
+                for(let i=0;i<cartData.length;i++)
+                {
+                    Ans += `
+                    <tr>
+                        <td>${i+1}</td>
+                        <td>${DataofJSON[getIndex(cartData[i].id)].name}</td>
+                        <td><img src="/IMAGES/Product/${i+1}.jpg" style="width:100px;height:120px"></td>
+                        <td>${cartData[i].count}</td>
+                        <td>${DataofJSON[getIndex(cartData[i].id)].price}</td>
+                    </tr>
+                    
+                    
+                    `
+                    TA += cartData[i].count * DataofJSON[getIndex(cartData[i].id)].price;
+                    
+                }
+                email = document.getElementById('email');
+                    pincode = document.getElementById('pincode');
+                    address = document.getElementById('address');
+                    name = document.getElementById('name');
+                    city = document.getElementById('city');
+                    cvv = document.getElementById('cvv');
+                    cnumber = document.getElementById('cnumber');
+                    currentDate = new Date();
+                    edate = document.getElementById('edate')
+                
+                    Submit = document.getElementById('submit')
+                    Submit.innerHTML = `pay $${TA}`
+
+                    Submit.addEventListener('click',()=>{
+                    let expireDate = new Date(edate.value)
+                    let flag = true;
+                    document.getElementById('edate_error').innerHTML =""
+                    if(email.value  == "")
+                    {
+                        document.getElementById('email-error').innerHTML = "Please Enter Email Address"
+                        email.style.border = "2px solid #F44344"
+                        document.getElementById('email-error').style.color="#F44344"
+                        flag = false
+                    }
+                    if(name.value == "")
+                    {
+                        document.getElementById('name_error').innerHTML = "Please Enter Name"
+                        name.style.border = "2px solid #F44344"
+                        document.getElementById('name_error').style.color="#F44344"
+                        flag = false
+                    }
+                    if(city.value == "")
+                    {
+                        document.getElementById('city_error').innerHTML = "Please Enter City"
+                        city.style.border = "2px solid #F44344"
+                        document.getElementById('city_error').style.color="#F44344"
+                        flag = false
+                    }
+                    if(cvv.value == "")
+                    {
+                        document.getElementById('cvv_error').innerHTML = "Please Enter Cvv"
+                        cvv.style.border = "2px solid #F44344"
+                        document.getElementById('cvv_error').style.color="#F44344"
+                        flag = false
+                    }
+                    if(cnumber.value =="")
+                    {
+                        document.getElementById('cnumber_error').innerHTML = "Please Enter Card Number"
+                        cnumber.style.border = "2px solid #F44344"
+                        document.getElementById('cnumber_error').style.color="#F44344"
+                        flag = false
+                    }
+                    if(currentDate > expireDate)
+                    {
+                        document.getElementById('edate_error').innerHTML = "Invalid Expiry Date"
+                        edate.style.border = "2px solid #F44344"
+                        document.getElementById('edate_error').style.color="#F44344"
+                        flag = false
+                    }
+                    else if(flag == true)
+                    {
+                        edate.style.border = "2px solid black"
+                        alert("Your Order is successfully placed")
+                        document.getElementById('append').innerHTML = `
+                            <h4>Email : ${email.value}<h4>
+                            <h4>Name : ${name.value}<h4>
+                            <h4>City : ${city.value}<h4>
+                            <h4>Cvv : ${cvv.value}<h4>
+                            <h4>card-number : ${cnumber.value}<h4>
+                            <h4>expireDate : ${expireDate}<h4>
+                            <h4>Amount : ${TA}<h4>
+                        `
+                        document.getElementById('result-container').classList.add('show')
+                        setTimeout(()=>{
+                            document.getElementById('result-container').classList.remove('show')
+                            window.localStorage.clear();
+                            window.location.href = "/index.html"
+                        },5000)
+                        
+                        
+                    }
+                    setTimeout(()=>{
+                        document.getElementById('email-error').innerHTML=""
+                        document.getElementById('name_error').innerHTML=""
+                        document.getElementById('city_error').innerHTML=""
+                        document.getElementById('cvv_error').innerHTML=""
+                        document.getElementById('cnumber_error').innerHTML=""
+                        document.getElementById('edate_error').innerHTML=""
+                        email.style.border = "1px #d9d9d9 solid"
+                        pincode.style.border = "1px #d9d9d9 solid"
+                        address.style.border = "1px #d9d9d9 solid"
+                        name.style.border = "1px #d9d9d9 solid"
+                        city.style.border = "1px #d9d9d9 solid"
+                        cvv.style.border = "1px #d9d9d9 solid"
+                        cnumber.style.border = "1px #d9d9d9 solid"    
+                        
+                    },3000)
+                    email.addEventListener('input',()=>{
+                    document.getElementById('email-error').innerHTML =""
+                        if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)))
+                        {
+                            document.getElementById('email-error').innerHTML = "Invalid Email Address"
+                            email.style.border = "2px solid #F44344"
+                            document.getElementById('email-erro').style.color="#F44344"
+                        }
+                        else
+                        {
+                            email.style.border = "2px solid black"
+
+                        }
+                    })
+                pincode.addEventListener('input',()=>{
+                    document.getElementById('pincode_error').innerHTML =""
+                    if(!(/^\d{6}$/.test(pincode.value)))
+                    {
+                        document.getElementById('pincode_error').innerHTML = "Invalid pincode"
+                        pincode.style.border = "2px solid #F44344"
+                        document.getElementById('pincode_error').style.color="#F44344"
+                    }
+                    else
+                    {
+                        pincode.style.border = "2px solid black"
+                    }
+                })
+                cvv.addEventListener('input',()=>{
+                    document.getElementById('cvv_error').innerHTML =""
+                    if(!(/^\d{3}$/.test(cvv.value)))
+                    {
+                        document.getElementById('cvv_error').innerHTML = "Invalid cvv"
+                        cvv.style.border = "2px solid #F44344"
+                        document.getElementById('cvv_error').style.color="#F44344"
+                    }
+                    else
+                    {
+                        cvv.style.border = "2px solid black"
+                    }
+                })
+                cnumber.addEventListener('input',()=>{
+                    document.getElementById('cnumber_error').innerHTML =""
+                    if(!(/^[0-9]{16}$/.test(cnumber.value)))
+                    {
+                        document.getElementById('cnumber_error').innerHTML = "Invalid Card Number"
+                        cnumber.style.border = "2px solid #F44344"
+                        document.getElementById('cnumber_error').style.color="#F44344"
+                    }
+                    else
+                    {
+                        cnumber.style.border = "2px solid black"
+                    }
+                })
+           
+                })
+                document.getElementById('orderedList').innerHTML = Ans;
+            },500)
+        }
+
+        function getIndex(id) {
+            for (let i = 0; i < DataofJSON.length; i++) {
+                if (DataofJSON[i].id == id) return i;
+            }
+        }
+        let DataofJSON = [];
+        function getJSONData() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                //console.log("hello");
+                $.getJSON("data.json", (jd) => {
+                    DataofJSON = jd;
+                });
+                resolve();
+                });
+            }, 500);
+        }
+
+
+        
+        getJSONData().then(printJSONpayment())
+       
+        
+    
+    </script>
+    
+</body>
+
+</html>
